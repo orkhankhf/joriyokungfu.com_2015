@@ -1,1 +1,3 @@
-# joriyokungfu.com_2015
+# joriyokungfu.com
+
+**Bu saytı yığmağa 2015-ci ildə Code Academy'də təhsil müddətinin bitməsinə 2 həftə qalmış başladım. Front-end və Back-end frameworklar istifadə edilərək hazırlanıb. Heç bir template istifadə edilməyib. Dizayn o qədərdə ürək açan deyil :). Bu mövzuda həmfikirəm Sizinlə. Bu mənim ilk layihəm olduğu üçün biraz təcrübəsiz olmağımdan irəli gələn nöqsanlar var. Databaza strukturundan tutmuş routingə, routingdən tutmuş front-end problemlərinə bir xeyli nöqsan var. Lakin ən azından bu nöqsanları növbəti saytlarda istifadə etməməyim üçün mənə əvəzolunmaz praktika oldu. Bu layihəni qeyri-peşəkar hesab etdiyim üçün texniki detallara çox toxunmayacam.**
