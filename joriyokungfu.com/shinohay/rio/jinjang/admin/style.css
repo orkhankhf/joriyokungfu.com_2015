@@ -1,0 +1,141 @@
+/*INDEX PHP START*/
+.my-form{
+	margin-top: 100px;
+	border:3px solid lightgray;
+	border-radius: 7px;
+	padding: 30px;
+}
+/*INDEX PHP FINISH*/
+
+
+/*ADMINPANEL START*/
+.adminpanelmain{
+	padding-bottom: 80px;
+}
+.adminpanelmain h2:nth-child(1){
+	margin-left: 0.7em;
+	font-size: 1.7em;
+
+}
+.adminpanelmain ul:nth-child(2){
+	border:0px;
+}
+.adminpanelmain ul:nth-child(2) li{
+	margin-bottom: 1.8px;
+	font-size: 1.1em;
+}
+.admin-panel-nav-buttons:hover{
+	background-color: gray !important;
+}
+.admin-panel h3{
+	border-bottom: 2px solid lightgray;
+	border-radius: 3px;
+	text-align: center;
+	margin: 0px;
+	padding-top: 2px;
+	color: lightblue;
+	font-size: 1.8em;
+	min-height: 35px;
+}
+@media(max-width:768px){
+	.admin-panel{
+		margin-top: 50px;
+	}
+}
+.form-group input.foto{
+	display: none;
+}
+.yetkili{
+	display: block;
+	color: red;
+	font-size: 0.8em;
+	font-weight: bolder;
+}
+/*ADMINPANEL FINISH*/
+
+
+/*ANKETLER*/
+.anketler-table-scroll{
+	overflow-x: scroll;
+}
+.anketler-main th{
+	border-left: 1.5px solid black;
+	border-top:1.5px solid black; 
+}
+.anketler-main td,.anketler-main th{
+	padding-right: 5px !important;
+	padding-left:  5px !important;
+	text-align: center;
+	padding-top: 15px !important;
+}
+.anketler-main tr{
+	border-bottom:1.5px solid black;
+}
+.anketler-main td:nth-child(1),th:nth-child(1){
+	font-size: 0.8em;
+	min-width: 50px;
+}
+.anketler-main td:nth-child(2),th:nth-child(2){
+	font-size: 0.8em;
+	min-width: 50px;
+}
+.anketler-main td:nth-child(3),th:nth-child(3){
+	font-size: 0.8em;
+	min-width: 50px;
+}
+.anketler-main td:nth-child(4),th:nth-child(4){
+	font-size: 0.8em;
+	min-width: 115px;
+}
+.anketler-main td:nth-child(5),th:nth-child(5){
+	font-size: 0.8em;
+	min-width: 115px;
+}
+.anketler-main td:nth-child(6),th:nth-child(6){
+	font-size: 0.8em;
+	min-width: 70px;
+}
+.anketler-main td:nth-child(7),th:nth-child(7){
+	font-size: 0.8em;
+	min-width: 165px;
+}
+.anketler-main td:nth-child(8),th:nth-child(8){
+	font-size: 0.8em;
+	min-width: 165px;
+}
+.anketler-main td:nth-child(9),th:nth-child(9){
+	font-size: 0.8em;
+	min-width: 140px;
+}
+.anketler-main td:nth-child(10),th:nth-child(10){
+	font-size: 0.8em;
+	min-width: 80px;
+}
+.anketler-main td:nth-child(11),th:nth-child(11){
+	font-size: 0.8em;
+	min-width: 65px;
+}
+.anketler-main td:nth-child(12),th:nth-child(12){
+	font-size: 0.8em;
+	min-width: 195px;
+}
+.anketler-main td:nth-child(13),th:nth-child(13){
+	font-size: 0.8em;
+	min-width: 187px;
+}
+.anketler-main td:nth-child(14),th:nth-child(14){
+	font-size: 0.8em;
+	min-width: 80px;
+}
+.anketler-main td:nth-child(15),th:nth-child(15){
+	font-size: 0.8em;
+	min-width: 112px;
+}
+.anketler-main th:nth-child(16){
+	font-size: 0.8em;
+	min-width: 60px;
+}
+.delete_form_input{
+	display: none;
+}
+/*ANKETLER*/

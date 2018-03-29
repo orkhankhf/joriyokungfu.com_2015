@@ -1,0 +1,2 @@
+[14-Jan-2017 10:07:46 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home2/orxans/public_html/joriyokungfu.com/xeber.php on line 26
+[14-Jan-2017 10:08:22 America/Chicago] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home2/orxans/public_html/joriyokungfu.com/xeber.php on line 26

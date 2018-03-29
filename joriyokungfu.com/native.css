@@ -1,0 +1,476 @@
+a{
+  text-decoration: none !important;
+  color: black;
+}
+body{
+  background-color: #f2f2f2;
+}
+/* HEADER START*/
+.header{
+  background-color: #d9d9d9;
+  padding: 10px;
+  text-align: center;
+  vertical-align: justify;
+  min-height: 130px;
+}
+.header h2{
+	  display: inline-block;
+    margin-top:4%;
+    width: 24em;
+    font-size: 2.9em;
+    font-family: 'Slabo', serif;
+}
+.partners{
+  width: 11em;
+  height: 154px;
+}
+.logo-left{
+  background:url(logo/a.png);
+  background-size: cover;
+  display: inline-block;
+  float: left;
+}
+.logo-right{
+  background: url(logo/b.png);
+  background-size: cover;
+  display: inline-block;
+  float: right;
+}
+@media(max-width: 1400px){
+  .header h2{
+    font-size: 2.6em;
+}
+.partners {
+    width: 9.7em;
+    height: 134px;
+}
+}
+
+
+@media(max-width: 1200px){
+  .header h2 {
+    margin-top: 4.5%;
+    width: 24em;
+    font-size: 2.1em;
+}
+.partners {
+    width: 8.7em;
+    height: 121px;
+}
+}
+
+
+@media(max-width: 992px){
+  .header h2 {
+    margin-top: 3%;
+    width: 16em;
+    font-size: 2.2em;
+}
+.partners {
+    width: 7.7em;
+    height: 106px;
+}
+}
+
+
+@media(max-width: 768px){
+  .header h2 {
+    margin-top: 1.5%;
+    font-size: 1.7em;
+    width: 11.8em;
+}
+.partners {
+    width: 6.1em;
+    height: 85px;
+}
+.header{
+  min-height: 100px;
+}
+}
+@media(max-width: 500px){
+  .header h2 {
+    margin-top: 0;
+    font-size: 1.6em;
+    width: 9em;
+}
+.partners {
+    width: 5.6em;
+    height: 78px;
+}
+.header{
+  min-height: 60px;
+}
+}
+@media(max-width: 400px){
+  .header h2 {
+    margin-top: 0;
+    font-size: 1.3em;
+    width: 9em;
+}
+.partners {
+    width: 4.6em;
+    height: 64px;
+}
+.header{
+  min-height: 56px;
+}
+}
+@media(max-width: 330px){
+  .header h2 {
+    margin-top: 0;
+    font-size: 1.2em;
+    width: 9em;
+}
+.partners {
+    width: 4em;
+    height: 56px;
+}
+.header{
+  min-height: 60px;
+}
+}
+/*HEADER FINISH*/
+
+/*NAVBAR START*/
+.navbar-main{
+  border-radius: 0px !important;
+}
+.dropdown-menu li{
+  background-color: lightgray;
+  border-bottom: 1px solid gray;
+  padding: 3px;
+}
+/*NAVBAR FINISH*/
+
+/*LEFT SIDE START*/
+
+/*PHOTO OF PRESIDENT IKF START*/
+.photo-of-president-ikf{
+  text-align: center;
+  background-color: #f2f2f2;
+}
+.photo-of-president-ikf span{
+  display: block;
+  font-size: 1em;
+  font-weight: bold;
+}
+.photo-of-president-ikf img{
+  display: inline-block;
+}
+.photo-of-president-ikf p{
+  font-size: 1em;
+  padding-right: 10px;
+  float: left !important;
+  margin-top: 15px;
+  text-align:justify;
+}
+/*PHOTO OF PRESIDENT IKF FINISH*/
+
+
+/*LEFT SIDE FINISH*/
+/*PAGES LEFT START*/
+
+/*LOGO OF IKF START*/
+.logo-of-ikf{
+  text-align: center;
+  background-color: #f2f2f2;
+  margin-bottom: 40px;
+  padding: 0px;
+}
+.logo-of-ikf span{
+  display: block;
+  font-size: 1em;
+}
+.logo-of-ikf img{
+  display: inline-block;
+}
+/*LOGO OF IFK FINISH*/
+
+/*LOGO OF ACKF START*/
+.logo-of-ackf{
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 0px;
+}
+.logo-of-ackf span{
+  display: block;
+  font-size: 1em;
+}
+.logo-of-ackf img{
+  display: inline-block;
+}
+/*LOGO OF ACFK FINISH*/
+
+
+/*PAGES LEFT FINISH*/
+
+
+
+/*MIDDLE START*/
+/*SLIDER START*/
+.jssort01 .p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 70px;
+}
+.jssort01 .t {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.jssort01 .w {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+.jssort01 .c {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 96px;
+    height: 66px;
+    border: #000 2px solid;
+    box-sizing: content-box;
+    _background: none;
+}
+.jssort01 .pav .c {
+    top: 2px;
+    _top: 0px;
+    left: 2px;
+    _left: 0px;
+    width: 96px;
+    height: 66px;
+    border: #000 0px solid;
+    _border: #fff 2px solid;
+    background-position: 50% 50%;
+}
+.jssort01 .p:hover .c {
+    top: 0px;
+    left: 0px;
+    width: 98px;
+    height: 68px;
+    border: #fff 1px solid;
+    background-position: 50% 50%;
+}
+.jssort01 .p.pdn .c {
+    background-position: 50% 50%;
+    width: 96px;
+    height: 66px;
+    border: #000 2px solid;
+}
+* html .jssort01 .c, * html .jssort01 .pdn .c, * html .jssort01 .pav .c {
+    /* ie quirks mode adjust */
+    width /**/: 72px;
+    height /**/: 72px;
+}
+.jssor_1{
+  border-bottom: 2px solid black;
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+  left: 0px;
+  width: 800px;
+  height: 456px;
+  overflow: hidden;
+  visibility: hidden;
+  z-index: 1;
+}
+.sliderNewsBox{
+  position:absolute;
+  bottom: 0;
+  font-size:18px;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 40px;
+  z-index:0;
+  padding: 10px;
+}
+ .jssora05l, .jssora05r {
+            display: inline-block;
+            position: absolute;
+            /* size of arrow element */
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            background: url('sliderimg/a17.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora05l { background-position: -10px -40px; }
+        .jssora05r { background-position: -70px -40px; }
+        .jssora05l:hover { background-position: -130px -40px; }
+        .jssora05r:hover { background-position: -190px -40px; }
+        .jssora05l.jssora05ldn { background-position: -250px -40px; }
+        .jssora05r.jssora05rdn { background-position: -310px -40px; }
+/*SLIDER FINISH*/
+
+/*UNDER SLIDER START*/
+.under-slider{
+  padding: 0px;
+}
+/*VIDEO PLAYER START*/
+.videoplayer-div{
+margin-top: 50px;
+margin-bottom: 50px;
+text-align: center;
+padding: 0px;
+}
+.videoplayer-div h2{
+  color: blue;
+  background-color: #F2F2F2;
+  text-decoration: underline;
+  font-size: 1.3em;
+  margin: 0px;
+}
+.videoplayer-div video{
+  width: 100%;
+  height: auto;
+}
+@media(max-width: 992px){
+  .videoplayer-div h2{
+  font-size: 1.2em;
+}
+}
+/*VIDEO PLAYER FINISH*/
+
+
+
+/*RESMI LOGOLAR START*/
+.resmi-logolar-main {
+  text-align: center;
+  margin-top:50px;
+}
+.resmi-logolar-main img{
+  padding: 0px;
+  margin: 0px auto;
+}
+.resmi-logolar-main a:nth-child(2) div img{
+  margin-top: 35px;
+}
+/*RESMI LOGOLAR FINISH*/
+
+
+/*UNDER SLIDER FINISH*/
+/*MIDDLE FINISH*/
+
+
+
+.testimg{
+  display: none;
+}
+
+
+
+/*RIGHT SIDE START*/
+.my-glpstyle{
+    margin-right:4px !important; /*override*/
+    float: left;
+}
+.pagination .my-glpstyle{
+    margin-right:0px !important; /*override*/
+}
+.panel ul{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+.my-panel-heading-on-rightside{
+  text-align: center;
+}
+.top-xeber-basligi{
+  color: blue;
+  font-size: 1.2em
+}
+.read-more{
+  color: blue;
+  font-size: 1em
+}
+.news-item{
+    padding:4px 4px;
+    margin:0px;
+    border-bottom:1px dotted #555; 
+}
+.qisa-xeber-div{
+  overflow: hidden;
+  max-width: 50ch;
+  max-height: 13ch;
+}
+@media(max-width: 992px){
+  .qisa-xeber-div{
+  overflow: hidden;
+  max-width: 91ch;
+  max-height: 8ch;
+}
+}
+#jquery-script-menu {
+position: fixed;
+height: 90px;
+width: 100%;
+top: 0;
+left: 0;
+border-top: 5px solid #316594;
+background: #fff;
+-moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+-webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+z-index: 999999;
+padding: 10px 0;
+-webkit-box-sizing:content-box;
+-moz-box-sizing:content-box;
+box-sizing:content-box;
+}
+
+.jquery-script-center {
+width: 960px;
+margin: 0 auto;
+}
+.jquery-script-center ul {
+width: 212px;
+float:left;
+line-height:45px;
+margin:0;
+padding:0;
+list-style:none;
+}
+.jquery-script-center a {
+  text-decoration:none;
+}
+.jquery-script-ads {
+width: 728px;
+height:90px;
+float:right;
+}
+.jquery-script-clear {
+clear:both;
+height:0;
+}
+/*RIGHT SIDE FINISH*/
+
+
+
+
+/*FOOTER START*//*FOOTER START*//*FOOTER START*//*FOOTER START*//*FOOTER START*/
+.footer{
+  background-color: #cccccc;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+  vertical-align: justify;
+  min-height: 120px;
+}
+.footer address{
+	margin: 1%;
+}
+.webmaster{
+	color: black;
+	font-size: 1em;
+	font-weight: bold;
+}
+/*FOOTER FINISH*//*FOOTER FINISH*//*FOOTER FINISH*//*FOOTER FINISH*//*FOOTER FINISH*/
